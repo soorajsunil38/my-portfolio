@@ -1055,22 +1055,24 @@ img {
   .mobile-break {
     display: block;
   }
+  .footer-social {
+    display: grid;
+    grid-template-columns: repeat(2, 52px);
+    grid-template-rows: repeat(2, 52px);
+    gap: 14px;
+    width: max-content;
+    max-width: 100%;
+    position: static;
+    margin: 20px 0 30px;
+    transform: none;
+  }
   .footer-social a {
-    width: 70px !important;
-    height: 70px !important;
-    min-width: 70px;
-    min-height: 70px;
+    width: 52px;
+    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 !important;
-    margin: 0 !important;
     border-radius: 50%;
-    box-sizing: border-box;
-  }
-  .footer-social a svg {
-    width: 23px;
-    height: 23px;
   }
   .footer-details {
     gap: 25px;
