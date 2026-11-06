@@ -1056,16 +1056,23 @@ img {
     display: block;
   }
   .footer-social {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 9px;
-    padding-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 52px);
+    grid-template-rows: repeat(2, 52px);
+    gap: 14px;
+    width: max-content;
+    max-width: 100%;
+    position: static;
+    margin: 20px 0 30px;
+    transform: none;
   }
   .footer-social a {
-    width: 36px;
-    height: 36px;
-    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
   }
   .footer-details {
     gap: 25px;
