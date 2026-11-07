@@ -1076,8 +1076,8 @@ img {
     transform: none;
   }
   .footer-social a {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1128,7 +1128,7 @@ img {
 /* Larger phones – approximately 376px to 430px */
 @media screen and (min-width: 376px) and (max-width: 430px) {
   .contact-art {
-    height: 210px;
+    height: 250px;
   }
 
   .contact-art-inner {
