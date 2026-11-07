@@ -1045,6 +1045,10 @@ img {
     max-width: 100%;
     grid-template-columns: minmax(0, 1fr) auto;
     column-gap: 12px;
+    padding-top: 45px;
+  }
+  .footer-heading {
+    padding-top: 60px;
   }
   .footer-heading h2 {
     font-size: clamp(52px,13vw,76px);
@@ -1057,9 +1061,9 @@ img {
   }
   .footer-social {
     display: grid;
-    grid-template-columns: repeat(2, 52px);
-    grid-template-rows: repeat(2, 52px);
-    gap: 14px;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: repeat(2, 50px);
+    gap: 10px;
     width: max-content;
     max-width: 100%;
     position: static;
@@ -1067,8 +1071,8 @@ img {
     transform: none;
   }
   .footer-social a {
-    width: 52px;
-    height: 52px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
