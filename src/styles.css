@@ -528,8 +528,8 @@ img {
 .footer-social a {
   display: grid;
   place-items: center;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border: 1px solid rgba(255,225,139,.55);
   border-radius: 50%;
   transition: background .2s,color .2s,transform .2s;
@@ -1028,17 +1028,21 @@ img {
     margin: 43px 0 0 22px;
   }
   .contact-art {
-    height: 280px;
+    height: 180px;
+    position: relative;
+    overflow: visible;
   }
   .cursor-art {
     width: 50px;
     right: 50px;
+    translate: 0 45px;
   }
   .contact-art-inner {
     width: 230px;
+    translate: 0 45px;
   }
   .footer {
-    padding: 48px 24px 20px;
+    padding: 5px 24px 20px;
   }
   .footer-inner {
     width: 100%;
