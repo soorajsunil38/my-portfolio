@@ -1041,9 +1041,10 @@ img {
   .contact-art-inner {
     width: clamp(200px, 60vw, 260px);
     translate: 0 clamp(25px, 10vw, 45px);
+    margin-top: 80px;
   }
   .footer {
-    padding: 5px var(--page-pad) 20px;
+    padding: 30px var(--page-pad) 20px;
   }
   .footer-inner {
     width: 100%;
@@ -1057,6 +1058,7 @@ img {
   }
   .footer-heading h2 {
     font-size: clamp(52px,13vw,76px);
+    margin-top: 20px;
   }
   .footer-eyebrow {
     font-size: 8px;
@@ -1076,12 +1078,13 @@ img {
     transform: none;
   }
   .footer-social a {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    margin-top: 30px;
   }
   .footer-details {
     gap: 25px;
