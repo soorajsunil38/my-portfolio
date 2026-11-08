@@ -1041,7 +1041,7 @@ img {
   .contact-art-inner {
     width: clamp(200px, 60vw, 260px);
     translate: 0 clamp(25px, 10vw, 45px);
-    margin-top: 80px;
+    /* margin-top: 100px; */
   }
   .footer {
     padding: 30px var(--page-pad) 20px;
