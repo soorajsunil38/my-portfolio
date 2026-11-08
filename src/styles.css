@@ -1034,14 +1034,13 @@ img {
     overflow: visible;
   }
   .cursor-art {
-    width: clamp(44px, 13vw, 58px);
-    right: clamp(24px, 13vw, 55px);
-    translate: 0 clamp(25px, 10vw, 45px);
+    width: 50px;
+    translate: -10px 40px;
   }
   .contact-art-inner {
     width: clamp(200px, 60vw, 260px);
     translate: 0 clamp(25px, 10vw, 45px);
-    margin-top: 200px;
+    margin-top: 140px;
   }
   .footer {
     padding: 50px var(--page-pad) 20px;
@@ -1051,7 +1050,7 @@ img {
     max-width: 100%;
     grid-template-columns: minmax(0, 1fr) auto;
     column-gap: 12px;
-    padding-top: clamp(35px, 11vw, 50px);
+    padding-top: 50px;
   }
   .footer-heading {
     padding-top: 60px;
