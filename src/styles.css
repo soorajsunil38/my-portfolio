@@ -1041,10 +1041,10 @@ img {
   .contact-art-inner {
     width: clamp(200px, 60vw, 260px);
     translate: 0 clamp(25px, 10vw, 45px);
-    /* margin-top: 100px; */
+    margin-top: 200px;
   }
   .footer {
-    padding: 30px var(--page-pad) 20px;
+    padding: 50px var(--page-pad) 20px;
   }
   .footer-inner {
     width: 100%;
